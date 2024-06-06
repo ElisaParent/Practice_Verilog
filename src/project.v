@@ -24,7 +24,7 @@ reg [30:0] lfsr;
         lfsr[0] <= lfsr[27] ^ lfsr[30] ;
         lfsr[30:1] <=lfsr[29:0] ;  
     end
-
+end  
   // All output pins must be assigned. If not used, assign to 0.
   assign uo_out[0] =lfsr[30] ;
   assign uio_out = 0;
@@ -33,5 +33,4 @@ reg [30:0] lfsr;
   // List all unused inputs to prevent warnings
     wire _unused = &{ena, uio_in, ui_in, 1'b0}; 
 endmodule
-
 
