@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Practice_Verilog"  # Project title
+  title:        "tt_um_Practice_Verilog"  # Project title
   author:       "ElisaParent"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "generates a PRBS signal"      # One line description of what your project does
